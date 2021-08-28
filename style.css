@@ -1,0 +1,117 @@
+body{
+    font-family: 'Niramit', sans-serif;
+    border: 36px #35228F solid;
+    
+    
+    
+}
+
+body nav{
+    font-weight: bold;
+    text-align: center;
+    font-size: 46px;   
+    color: white;
+}
+
+body nav a { 
+    padding-left: 1000px;
+    background: #35228F;
+    padding: 15px 30px;
+    border-radius: 25px;
+    
+}
+
+
+body div{
+    padding-top: 150px;
+    padding-bottom: 207px;
+    padding-left: 150px;
+    list-style: none;
+    font-size: 23px;   
+    display: flex;
+
+ }
+ body div ul.pic{
+    padding-right: 150px;   
+ 
+ }
+
+ 
+body div ul li{
+   list-style: none;
+   display: flex;
+   color: black;
+   font-size: 30px;
+   font-weight: bold;
+   
+
+}
+
+body div ul.topic li p{
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 30px;
+    background: #5F5FD6;   
+    text-align: center;
+    border-radius: 31px;
+
+}
+
+
+body div ul li p1{
+    padding: 15px 21px;
+    padding-left: 100px;
+    border-radius: 31px;
+    
+}
+
+body div ul li p2{
+    padding: 15px 21px;
+    padding-left: 50px;
+    border-radius: 31px;
+   
+}
+
+body div ul li p3{
+    padding: 15px 21px;
+    padding-left: 127px;
+    border-radius: 31px;
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        padding-left: 10px;
+       padding-right: 1200px;
+    }
+  
+    body nav{
+        font-weight: bold;
+        padding-left: 470px;
+        font-size: 46px;   
+        color: white;
+    }
+    
+    body nav a { 
+        background: #35228F;
+        padding: 15px 30px;
+        border-radius: 25px;
+        
+    }
+    
+    body div{
+        padding-top: 150px;
+        padding-bottom: 170px;
+        padding-left: 20px;
+        list-style: none;
+        font-size: 23px;   
+        display: flex;
+    
+     }
+    
+     body div ul.pic{
+        padding-right: 50px;   
+     
+     }   
+}
