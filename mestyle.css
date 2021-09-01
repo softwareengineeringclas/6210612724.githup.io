@@ -1,0 +1,162 @@
+body{
+    font-family: 'Niramit', sans-serif;
+    
+}
+::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+	--webkit-box-shadow: inset 0 50px      50px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color:#7F66D1; 
+  border-radius: 20px; 
+}
+
+
+body nav{
+    position: sticky;
+    top:0;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background: #7F66D1;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+
+    
+}
+
+body nav div.logo a.frame{
+    position: absolute;
+    padding-top: 8px;
+    
+    
+}
+
+body nav div.logo a.pic{
+    position: absolute;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-weight: bold;
+    
+
+    
+}
+
+
+body nav div.logo{
+    font-size: 20px;
+    
+    
+}
+body nav div.logo{
+    font-size: 20px;
+
+    
+}
+body nav div.pages{
+    display: flex;
+    padding-left: 850px;
+    padding-top: 16px;
+
+    
+}
+
+body nav div.pages a.select{
+    padding-left: 4px;    
+}
+body nav div.pages ul{
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+
+    
+}
+
+body nav div.pages ul li{
+   list-style: none;
+   font-size: 23px;
+   padding-top: 1px;
+   padding-right: 50px;
+}
+
+body nav div.pages ul li.me{
+    color: white;
+
+}
+
+ 
+
+body nav div.pages img{
+    position: absolute;
+    padding-left: 10px;
+}
+
+
+
+body section.login{
+    width: 100%;
+    height: 316px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+  
+}
+
+body section.course{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5000px;
+  
+}
+
+body section.course ul{
+    padding-top: 30px;
+    text-align: center;
+
+  
+}
+body section.course img{
+    padding-left: 10px;
+  
+  
+}
+
+body section.course  {
+    width: 100%;
+    height: 100%;
+    
+   
+   
+ }
+
+
+
+body section.course div {
+    display: flex;
+    margin-left: 840px;
+
+   
+   
+ }
+ body section.course div ul {
+    display: flex;
+    margin-left: 840px;
+
+   
+   
+ }
+ 
+body section.course div li{
+   list-style: none;
+  
+  
+}
+
+
+
+
+
